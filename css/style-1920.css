@@ -53,4 +53,51 @@
     margin-bottom: 3rem;
     line-height: var(--lnh150);
 }
+.aboutme2{
+    margin-top: 10rem;
+}
+.aboutme2 .common-frame{
+    display: flex;
+    gap:1rem;
+}
+.aboutme2-img{
+    width:50%;
+}
+.aboutme2-txt{
+    width:50%;
+    margin-top:3rem;
+}
+.aboutme2-txt h3{
+    margin-bottom: 5rem;
+}
+.aboutme2-txt p{
+    line-height: var(--lnh150);
+    margin-bottom: 3rem;
+}
+.about-dl{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(50px,1fr));
+    gap:1rem;
+    margin-bottom: 3rem;
+}
+.about-dl>div{
+    display: flex;
+    gap:1rem;
+}
+.about-dl>div dt{
+    flex:1;
+    font-weight: var(--weight1);
+    text-transform: uppercase;
+}
+.about-dl>div dd{
+    flex:1;
+}
+.certi h4{
+    margin-bottom: 1rem;
+}
+.certi-list>li{
+    margin-bottom: 0.5rem;
+    display: grid;
+    grid-template-columns: 150px 1.5fr 1fr;
+}
 

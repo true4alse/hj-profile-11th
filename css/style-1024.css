@@ -8,6 +8,12 @@
     .about-txt{
         padding-right:0;
     }
+    .about-dl{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(50px,1fr));
+        gap:1rem;
+        margin-bottom: 3rem;
+    }
 
     /* 선 넘지마세요 */
 }
