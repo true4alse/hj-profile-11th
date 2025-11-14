@@ -15,5 +15,12 @@
         margin-bottom: 3rem;
     }
 
+    .grid-skill{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(50px,1fr));
+        gap:1rem;
+        text-align: left;
+    }
+
     /* 선 넘지마세요 */
 }

@@ -12,10 +12,13 @@
     --lnh150:1.5;
 }
 @media (min-width:2000px){
-    main{
+    .common-frame{
         width:1920px;
         margin:0 auto;
     }
+}
+p{
+    line-height: var(--lnh150);
 }
 .abore{
     font-family: "Aboreto", system-ui;
