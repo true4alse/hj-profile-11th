@@ -50,6 +50,10 @@
         gap:1rem;
         text-align: left;
     }
+    .grid-skill>li{
+        border:1px solid rgba(255, 255, 255, 0.486);
+        padding:1rem;
+    }
     /* 선 */
 }
 
