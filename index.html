@@ -18,7 +18,9 @@
     <script src="./js/bbyong.js"></script>
     <link rel="stylesheet" href="./css/interaction.css?v=1">
     <script src="./js/observer.js"></script>
-
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 <body>
     <main>
@@ -157,6 +159,139 @@
                 </ul>
             </div>
         </div>
+        <div class="popup">
+            <div class="common-frame">
+                <h3>Popups</h3>
+                <p>디자인을 벤치마킹한 후 각 무드에 어울리도록<br>
+                테마에 맞춰서 500x500픽셀의 팝업디자인을 제작했습니다.</p>
+                <!-- Slider main container -->
+                <div class="swiper popup-slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/popup1.jpg" alt="팝업1 이미지 - 나이키 팝업 할인행사 이미지">
+                            </figure>
+                            <h4>나이키 팝업 - 할인행사 이벤트</h4>
+                            <p>전체적으로 파란색을 메인 톤으로 활용해 나이키 브랜드의 스포티한 이미지를 강조했습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/popup2.jpg" alt="팝업2 이미지 - 나이키 발렌타인 기프트박스 행사 이미지">
+                            </figure>
+                            <h4>나이키 팝업 - 발렌타인 기프트 박스</h4>
+                            <p>전체적으로 나이키의 에너지와 발렌타인 시즌의 설렘을 동시에 담기 위해 강렬한 컬러 포인트와 균형 잡힌 여백을 활용했습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/popup3.jpg" alt="팝업3 이미지 - 화이트 데이 행사 이미지">
+                            </figure>
+                            <h4>화이트데이 이벤트 팝업</h4>
+                            <p>화이트데이의 달콤한 분위기를 담기 위해 화이트 톤과 파스텔 포인트 컬러를 활용해 부드럽고 산뜻한 무드를 연출했습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/popup4.jpg" alt="팝업4 이미지 - 블랙프라이데이 이벤트 할인행사 이미지">
+                            </figure>
+                            <h4>블랙프라이데이 팝업</h4>
+                            <p>블랙프라이데이의 강렬한 분위기를 살리기 위해 블랙과 핑크 포인트 컬러를 중심으로 강한 대비감을 표현했습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const popupSlider = new Swiper(".popup-slider",{
+                slidesPerView: 1.2,
+                spaceBetween: 14,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    768: {
+                    slidesPerView: 3.2,
+                    spaceBetween: 18,
+                    },
+                    1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    },
+                },
+            })
+        </script>
+
+        <div class="banner">
+            <div class="common-frame">
+                <h3>Banners</h3>
+                <p>디자인을 벤치마킹한 후 각 무드에 어울리도록<br>
+                테마에 맞춰서 1920x700픽셀의 배너디자인을 제작했습니다.</p>
+                <!-- Slider main container -->
+                <div class="swiper banner-slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/banner1.jpg" alt="배너1 이미지 - 나이키 팝업 할인행사 이미지">
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>나이키 배너 - 할인행사 이벤트</h4>
+                                <p>전체적으로 파란색을 메인 톤으로 활용해 나이키 브랜드의 스포티한 이미지를 강조했습니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/banner2.jpg" alt="배너2 이미지 - 나이키 발렌타인 기프트박스 행사 이미지">
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>나이키 배너 - 발렌타인 기프트 박스</h4>
+                                <p>전체적으로 나이키의 에너지와 발렌타인 시즌의 설렘을 동시에 담기 위해 강렬한 컬러 포인트와 균형 잡힌 여백을 활용했습니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/banner3.jpg" alt="배너3 이미지 - 화이트 데이 행사 이미지">
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>화이트데이 이벤트 배너</h4>
+                                <p>화이트데이의 달콤한 분위기를 담기 위해 화이트 톤과 파스텔 포인트 컬러를 활용해 부드럽고 산뜻한 무드를 연출했습니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="./img/banner4.jpg" alt="배너4 이미지 - 블랙프라이데이 이벤트 할인행사 이미지">
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>블랙프라이데이 배너</h4>
+                                <p>블랙프라이데이의 강렬한 분위기를 살리기 위해 블랙과 핑크 포인트 컬러를 중심으로 강한 대비감을 표현했습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const bannerSlider = new Swiper(".banner-slider",{
+                slidesPerView: 1,
+                spaceBetween: 14,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    768: {
+                    slidesPerView: 1,
+                    spaceBetween: 18,
+                    },
+                    1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    },
+                },
+            })
+        </script>
 
     </main>
     

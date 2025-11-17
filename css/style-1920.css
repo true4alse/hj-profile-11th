@@ -130,6 +130,43 @@
     border-top: 1px solid rgba(255, 255, 255, 0.486);
     padding-top: 1rem;
 }
+.popup-slider{
+    width:100%;
+}
+.popup-slider h4{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.popup{
+    margin-top: 10rem;
+}
+.popup h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.popup h3+p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.banner{
+    margin-top: 10rem;
+}
+.banner h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.banner h3+p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.banner-txt{
+    margin-top: 1rem;
+    display: flex;
+    gap:1rem;
+}
+.banner-txt>*{
+    flex:1;
+}
 
 @media (max-width:1500px){
 
@@ -139,5 +176,5 @@
         gap:1rem;
         text-align: left;
     }
-    
+
 }
