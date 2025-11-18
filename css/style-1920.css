@@ -167,6 +167,39 @@
 .banner-txt>*{
     flex:1;
 }
+.project{
+    margin-top: 10rem;
+}
+.project h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.project p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.project-sticky-menu{
+    display: flex;
+    gap:1rem;
+    position: sticky;
+    left:0;
+    top:1rem;
+}
+.project-sticky-menu a{
+    display: block;
+    background-color: #fff;
+    padding:0.5rem 2.4rem;
+    border:1px solid #000;
+}
+.project-sticky-menu a:hover{
+    background-color: var(--main-color);
+    color:#fff;
+}
+
+
+
+
+
 
 @media (max-width:1500px){
 
