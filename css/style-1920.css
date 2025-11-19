@@ -173,6 +173,7 @@
 .project h3{
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: 6rem;
 }
 .project p{
     text-align: center;
@@ -184,6 +185,7 @@
     position: sticky;
     left:0;
     top:1rem;
+    justify-content: center;
 }
 .project-sticky-menu a{
     display: block;
