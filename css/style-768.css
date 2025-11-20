@@ -57,6 +57,23 @@
     .banner-txt{
         flex-direction: column;
     }
+
+    .project-sticky-menu a {
+        padding: 0.5rem 1rem;
+        font-size:0.9rem;
+    }
+
+    .contact h2{
+        font-size:2rem;
+    }
+    .ct2{
+        font-size: 1.2rem;
+    }
+    .contact-menu{
+        flex-direction: column;
+        gap:1rem;
+    }
+
     /* 선 */
 }
 

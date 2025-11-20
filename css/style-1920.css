@@ -184,8 +184,14 @@
     gap:1rem;
     position: sticky;
     left:0;
-    top:1rem;
+    top:4.5rem;
     justify-content: center;
+}
+.btn-menu{
+    display: none;
+}
+.header-smart{
+    display: none;
 }
 .project-sticky-menu a{
     display: block;
@@ -197,9 +203,79 @@
     background-color: var(--main-color);
     color:#fff;
 }
+.project-img{
+    line-height: 0;
+    text-align: center;
+}
+.banner-slider{
+    max-width: 1920px;
+}
+.contact{
+    background-color: #000;
+    color:#fff;
+    padding:6rem 0 10rem;
+    text-align: center;
+}
+.ct1{
+    margin-bottom: 2rem;
+}
+.contact h2{
+    font-size:5rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.ct2{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.contact h4{
+    margin-bottom: 1rem;
+}
+.contact-menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.contact-menu a{
+    font-size:0.9rem;
+    padding:0.5rem 1rem;
+    border:1px solid rgba(255, 255, 255, 0.512);
+    display: inline-block;
+}
 
-
-
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    padding:1rem 0;
+    z-index: 100000;
+    /* filter: blur(0); */
+    opacity: 1;
+    pointer-events: auto;
+    transition:all 1s ease 0s;
+}
+header.fadeout{
+    filter: blur(100px);
+    opacity: 0;
+    pointer-events: none;
+}
+.gnb{
+    display: inline-flex;
+    gap:2rem;
+    font-size:0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+.gnb a:hover{
+    color:var(--main-color);
+}
 
 
 
